@@ -1,3 +1,13 @@
+## The BALTO Jupyter Notebook GUI
+
+*Scott Dale Peckham, Maria Stoica, D. Sarah Stamps, James Gallagher, Nathan Potter, David Fulker*
+
+The EarthCube BALTO project has built upon the proven and widely-used technology of OPeNDAP (Open-source Project for a Network Data Access Protocol) to provide a mechanism for sharing long-tail data sets, big data sets and supporting metadata for the geosciences. The OPeNDAP protocol was developed by a non-profit organization, also called OPeNDAP, along with a software package called Hyrax. Hyrax is installed on servers to enable them to share data sets using this protocol and is one of several server-side software packages for this purpose. In support of the BALTO project, Hyrax has been extended in various ways, including support for schema.org, GeoCODES, and JSON-LD. The BALTO extension to Hyrax makes it easier for search engines to discover data sets on OPeNDAP-enabled servers.
+
+One of the products of the BALTO project is a graphical user interface (GUI) prototype that runs in a Jupyter notebook and provides convenient access to the data that is available on OPeNDAP servers. This notebook GUI is built using several Python packages, including ipywidgets (for GUI widgets), ipyleaflet (for interactive maps), and pydap (for basic access to OPeNDAP servers). When the notebook is made available with Binder, users are able to use the GUI in a browser on their computer without installing any additional software (such as Python or Python packages). They can also edit the code in the notebook to customize it for their specific needs, or to further analyze and visualize the geoscience data sets they retrieve. A demonstration of this BALTO notebook GUI will be given at the virtual EarthCube 2020 annual meeting. 
+
+----
+
 # balto_gui
 An Interactive GUI for BALTO in a Jupyter notebook
 
